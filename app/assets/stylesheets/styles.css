@@ -141,7 +141,7 @@ header {
   border-radius: 15px;
   padding: 1rem;
   max-height: 200px;
-  width: 400px;
+  width: clamp(300px, 50vw, 1000px);
   overflow: hidden;
   display: flex;
   flex-direction: column;
