@@ -11,6 +11,21 @@
   </head>
 
   <body>
-    <%= yield %>
+    <header>
+      <%= image_tag "bailey-zindel-NRQV-hBF10M-unsplash.jpg", class:"header__image" %>
+      <div class="header__content">
+        <h2 class="logo">blog.</h2>
+        <div class="header__links">
+          <a href="#">about</a>
+          <%= link_to "home", root_path %> 
+        </div>
+      </div>
+    </header>
+    <main>
+      <%= yield %>
+      <div class="attr">
+        Photo by <a href="https://unsplash.com/@baileyzindel?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Bailey Zindel</a> on <a href="https://unsplash.com/images/nature?utm_source=unsplash&utm_medium=referral&utm_content=creditCopyText">Unsplash</a>
+      </div>
+    </main>
   </body>
 </html>
