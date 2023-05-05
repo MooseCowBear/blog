@@ -3,7 +3,7 @@
   <%= link_to "New Article", new_article_path %>
 </div>
 
-<ul>
+<ul class="articles">
   <% @articles.each do |article| %>
     <li class="article__card">
       <%= link_to article.title, article %>
