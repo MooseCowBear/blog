@@ -176,6 +176,8 @@ header {
   outline: none;
   border: 1px solid var(--accent-300);
   border-radius: 5px;
+  background-color: transparent;
+  padding: 0.2rem 0.5rem;
 }
 
 .form__wrapper.article textarea {
@@ -192,6 +194,7 @@ header {
   padding: 0.2rem 0.5rem;
   border: 1px solid var(--accent-300);
   border-radius: 5px;
+  background-color: transparent;
 }
 
 input[type="submit"] {
