@@ -182,7 +182,7 @@ header {
 
 .form__wrapper.article textarea {
   height: 200px;
-  width: 400px;
+  width: clamp(300px, 50vw, 1000px);
 }
 
 .form__wrapper.comment textarea {
