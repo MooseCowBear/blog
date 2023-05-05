@@ -6,7 +6,10 @@
 <ul class="articles">
   <% @articles.reverse_each do |article| %>
     <li class="article__card">
-      <%= link_to article.title, article %>
+      <div class="article-title__wrapper">
+        <%= link_to article.title, article %>
+        <%= article.created_at.strftime('%m/%d/%Y') %>
+      </div>
       <%= article.body %>
     </li>
   <% end %>

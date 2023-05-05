@@ -148,12 +148,17 @@ header {
   gap: 1rem;
 }
 
-.article__card > a {
-  border-bottom: 2px solid var(--accent-100);
-  padding-bottom: 0.5rem;
+.article__card a {
   font-weight: 600;
   font-size: 1.2rem;
   text-transform: lowercase;
+}
+
+.article-title__wrapper {
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 2px solid var(--accent-100);
+  padding-bottom: 0.5rem;
 }
 
 .attr {
